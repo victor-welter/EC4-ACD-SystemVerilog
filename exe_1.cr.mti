@@ -1,0 +1,8 @@
+C:/Users/Cliente/Documents/Git/SystemVerilog/exe_01.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/Cliente/Documents/Git/SystemVerilog/exe_01.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module exe_01
+
+Top level modules:
+	exe_01
+
+} {} {}}
