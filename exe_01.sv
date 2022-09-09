@@ -16,7 +16,6 @@ module exe_01 (
 
     output logic out1,
     output logic out2
-    
 );
-    
+
 endmodule

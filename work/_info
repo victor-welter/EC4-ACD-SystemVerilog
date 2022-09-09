@@ -4,6 +4,7 @@ z2
 Z0 !s99 nomlopt
 R0
 R0
+R0
 !s11f vlog 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
@@ -12,59 +13,72 @@ R0
 !i10f 100
 cModel Technology
 Z1 dC:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog
-T_opt
-!s110 1660866458
-V8iU>FNS7]NRISd?VdkiP33
-Z2 04 6 4 work exe_02 fast 0
-=1-1c3947577edb-62fecf98-3f-b10
-Z3 !s124 OEM10U1 
-o-quiet -auto_acc_if_foreign -work work
-Z4 tCvgOpt 0
-n@_opt
-Z5 OL;O;2021.2;73
-R1
 T_opt1
 !s110 1660866724
 VOP5MoZQ^PKRfhWjWldZkU2
-R2
+04 6 4 work exe_02 fast 0
 =1-1c3947577edb-62fed0a2-309-32dc
-R3
-Z6 o-quiet -auto_acc_if_foreign -work work +acc
-R4
+Z2 !s124 OEM10U1 
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
 n@_opt1
-R5
+Z5 OL;O;2021.2;73
 R1
-T_opt2
-!s110 1660867556
-VA0HMB`7iNXLfV5QdCaj4l3
+T_opt4
+!s110 1662683822
+VKhVF<dIR]1eFG0E12]=5B2
+04 6 4 work exe_03 fast 0
+=1-1c3947577edb-631a8aad-37e-2c28
 R2
-=1-1c3947577edb-62fed3e2-381-22d8
 R3
-R6
 R4
-n@_opt2
+n@_opt4
 R5
 vexe_02
-DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1660867552
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1662682523
 !i10b 1
-!s100 Gi<HG4bo?<039YCeR;8761
-INV]R0^8cR>OfV78ZFAzTf2
+!s100 ISRaR;@;mF`g17@0NY?IH3
+IYoC`jeXiUQ>o0SlSo7H5;1
 S1
 R1
-w1660864788
-8exe_02.sv
-Fexe_02.sv
-!i122 3
-L0 21 16
-VDg1SIo80bB@j0V0VzS_@n1
-OL;L;2021.2;73
+w1662682314
+8exe_03/exe_03.sv
+Fexe_03/exe_03.sv
+!i122 7
+L0 21 13
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.2;73
 r1
 !s85 0
 31
-!s108 1660867552.000000
-!s107 exe_02.sv|
-!s90 -reportprogress|300|-work|work|exe_02.sv|
+!s108 1662682523.000000
+!s107 exe_03/exe_03.sv|
+!s90 -reportprogress|300|-work|work|exe_03/exe_03.sv|
 !i113 0
-o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vexe_03
+R6
+!s110 1662683820
+!i10b 1
+!s100 B9Q@5b5Q0nXj`c5Eg1O:32
+I8n=SmQ?eAIY8CzQ0^:=V82
+S1
+R1
+w1662683805
+8exe_03.sv
+Fexe_03.sv
+!i122 8
+L0 21 17
+R7
+R8
+r1
+!s85 0
+31
+!s108 1662683819.000000
+!s107 exe_03.sv|
+!s90 -reportprogress|300|-work|work|exe_03.sv|
+!i113 0
+R9
 R4
