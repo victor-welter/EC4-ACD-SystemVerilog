@@ -1,5 +1,5 @@
-add wave /exe_03/in1
+add wave /exe_04/in1
+add wave /exe_04/in2
+add wave /exe_04/in3
 
-add wave /exe_03/s1
-add wave /exe_03/s2
-add wave /exe_03/s3
+add wave /exe_04/out1
