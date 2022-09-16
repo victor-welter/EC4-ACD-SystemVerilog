@@ -12,7 +12,6 @@ e absolute ambas de 16 bits. O comportamento deve ser:
 ○ absolute recebe a parte baixa de address
 ● Para testar:
 ○ Force o valor F00F1010 para address
-
 */
 
 module exe_06 (

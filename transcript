@@ -19,18 +19,18 @@
 # vmap work work 
 # Modifying modelsim.ini
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 20:56:38 on Sep 15,2022
-# vlog -reportprogress 300 -work work exe_06.sv 
-# -- Compiling module exe_06
+# Start time: 21:48:49 on Sep 15,2022
+# vlog -reportprogress 300 -work work exe_07.sv 
+# -- Compiling module exe_07
 # 
 # Top level modules:
-# 	exe_06
-# End time: 20:56:38 on Sep 15,2022, Elapsed time: 0:00:00
+# 	exe_07
+# End time: 21:48:49 on Sep 15,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.exe_06 
-# Start time: 20:56:39 on Sep 15,2022
-# ** Note: (vsim-3812) Design is being optimized...
+# vsim -voptargs="+acc" work.exe_07 
+# Start time: 21:48:49 on Sep 15,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt4
 # Loading sv_std.std
-# Loading work.exe_06(fast)
-# End time: 21:06:26 on Sep 15,2022, Elapsed time: 0:09:47
+# Loading work.exe_07(fast)
+# End time: 21:50:22 on Sep 15,2022, Elapsed time: 0:01:33
 # Errors: 0, Warnings: 0
