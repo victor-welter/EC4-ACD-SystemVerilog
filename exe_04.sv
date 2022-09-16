@@ -3,7 +3,7 @@
 *
 *Autor: Víctor Vinicius Welter
 *
-*Data: Agosto de 2022
+*Data: Setembro de 2022
 *
 *Especificacao:
 ● Crie um projeto exe_4 que possui entradas in{1,2,3} e uma saída out1. 

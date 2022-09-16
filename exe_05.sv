@@ -3,7 +3,7 @@
 *
 *Autor: Víctor Vinicius Welter
 *
-*Data: Agosto de 2022
+*Data: Setembro de 2022
 *
 *Especificacao:
 ● Crie um projeto exe_5 que possui as entradas in{1,2} ambas de 8 bits e uma saída 

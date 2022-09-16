@@ -2,13 +2,12 @@ vlib work
 
 vmap work work
 
-vlog -work work exe_05.sv
+vlog -work work exe_06.sv
 
-vsim -voptargs=+acc work.exe_05
+vsim -voptargs=+acc work.exe_06
 
 do wave.do
 
-force /exe_05/in1 10
-force /exe_05/in2 20
+force /exe_06/in1 F00F1010
 
 run 100 ns
