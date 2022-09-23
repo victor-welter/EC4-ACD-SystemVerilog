@@ -12,25 +12,21 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# do sim.do
+# do exe_08/sim.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Errors: 0, Warnings: 1
 # Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
 # vmap work work 
 # Modifying modelsim.ini
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 21:48:49 on Sep 15,2022
-# vlog -reportprogress 300 -work work exe_07.sv 
-# -- Compiling module exe_07
-# 
-# Top level modules:
-# 	exe_07
-# End time: 21:48:49 on Sep 15,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.exe_07 
-# Start time: 21:48:49 on Sep 15,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt4
-# Loading sv_std.std
-# Loading work.exe_07(fast)
-# End time: 21:50:22 on Sep 15,2022, Elapsed time: 0:01:33
-# Errors: 0, Warnings: 0
+# Start time: 20:10:39 on Sep 22,2022
+# vlog -reportprogress 300 -work work modulo.sv 
+# ** Error: (vlog-7) Failed to open design unit file "modulo.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 20:10:39 on Sep 22,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/21.1/questa_fse/win64/vlog failed.
+# Error in macro ./exe_08/sim.do line 5
+# C:/intelFPGA/21.1/questa_fse/win64/vlog failed.
+#     while executing
+# "vlog -work work modulo.sv"
