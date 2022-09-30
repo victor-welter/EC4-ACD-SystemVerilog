@@ -18,7 +18,8 @@ s2, s3, a, b, c, d.
 2) Compile no Questa como vimos na última aula
 */
 
-module exe_02 (
+module exe_02
+(
     input logic a,
     input logic b,
     input logic c,
@@ -32,5 +33,5 @@ module exe_02 (
     assign s1 = a & ~b;
     assign s2 = a & b | c & d;
     assign s3 = a & ~b | ~(c & (a | d));
-    
+
 endmodule
