@@ -3,11 +3,10 @@ vlib work
 vmap work work
 
 vlog -work work exe_07.sv
+vlog -work work testbench.sv
 
-vsim -voptargs=+acc work.exe_07
+vsim -voptargs=+acc work.testbench
 
 do wave.do
 
-force /exe_07/in1 C
-
-run 100 ns
+run 320 ns

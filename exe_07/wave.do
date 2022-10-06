@@ -1,3 +1,3 @@
-add wave /exe_07/in1
+add wave /testbench/in1
 
-add wave /exe_07/out1
+add wave /testbench/out1
