@@ -18,6 +18,7 @@ R0
 R0
 R0
 R0
+R0
 !s11f vlog 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
@@ -68,6 +69,17 @@ R6
 R2
 R3
 n@_opt6
+R4
+R1
+T_opt7
+!s110 1665097822
+VQ<R[9=e[gTgla^[GM8Z1k2
+04 9 4 work testbench fast 0
+=1-1c3947577edb-633f605d-1a4-27dc
+!s124 OEM10U4 
+R2
+R3
+n@_opt7
 R4
 vexe_02
 Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
@@ -215,23 +227,23 @@ R10
 R3
 vexe_08
 R7
-Z11 !s110 1663889121
+!s110 1665097818
 !i10b 1
 !s100 d`[5gY`?[P<O7`AV=bHJo3
 I?[0JIUkbeBmV]6X_^FKPl0
 S1
-Z12 dC:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog/exe_08
+Z11 dC:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog/exe_08
 w1663889106
 8exe_08.sv
 Fexe_08.sv
-!i122 38
+!i122 40
 L0 26 24
 R8
 R9
 r1
 !s85 0
 31
-!s108 1663889121.000000
+!s108 1665097818.000000
 !s107 exe_08.sv|
 !s90 -reportprogress|300|-work|work|exe_08.sv|
 !i113 0
@@ -239,25 +251,49 @@ R10
 R3
 vmodulo
 R7
-R11
+!s110 1665097817
 !i10b 1
 !s100 oDa2kP;Cc2S]jNdN?z2Vg2
 IE@NR>0kgW[>HX607XSU;X1
 S1
-R12
+R11
 w1663888468
 8modulo.sv
 Fmodulo.sv
-!i122 37
+!i122 39
 L0 1 16
 R8
 R9
 r1
 !s85 0
 31
-!s108 1663889120.000000
+!s108 1665097817.000000
 !s107 modulo.sv|
 !s90 -reportprogress|300|-work|work|modulo.sv|
+!i113 0
+R10
+R3
+vtestbench
+R7
+!s110 1665097819
+!i10b 1
+!s100 Q_;<9efV]^_9:l6jGDLVc0
+IYJi689kPLTBOiDcS=nImP2
+S1
+R11
+w1665097687
+8testbench.sv
+Ftestbench.sv
+!i122 41
+L0 1 13
+R8
+R9
+r1
+!s85 0
+31
+!s108 1665097819.000000
+!s107 testbench.sv|
+!s90 -reportprogress|300|-work|work|testbench.sv|
 !i113 0
 R10
 R3

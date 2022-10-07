@@ -4,13 +4,10 @@ vmap work work
 
 vlog -work work modulo.sv
 vlog -work work exe_08.sv
+vlog -work work testbench.sv
 
-vsim -voptargs=+acc work.exe_08
+vsim -voptargs=+acc work.testbench
 
 do wave.do
 
-force /exe_08/in1 6
-run 100 ns
-
-force /exe_08/in1 5
-run 100 ns
+run 320 ns

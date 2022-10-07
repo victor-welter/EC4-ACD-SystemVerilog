@@ -19,31 +19,43 @@
 # vmap work work 
 # Modifying modelsim.ini
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 20:25:20 on Sep 22,2022
+# Start time: 20:10:17 on Oct 06,2022
 # vlog -reportprogress 300 -work work modulo.sv 
 # -- Compiling module modulo
 # 
 # Top level modules:
 # 	modulo
-# End time: 20:25:21 on Sep 22,2022, Elapsed time: 0:00:01
+# End time: 20:10:17 on Oct 06,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 20:25:21 on Sep 22,2022
+# Start time: 20:10:18 on Oct 06,2022
 # vlog -reportprogress 300 -work work exe_08.sv 
 # -- Compiling module exe_08
 # 
 # Top level modules:
 # 	exe_08
-# End time: 20:25:21 on Sep 22,2022, Elapsed time: 0:00:00
+# End time: 20:10:18 on Oct 06,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.exe_08 
-# Start time: 20:25:21 on Sep 22,2022
+# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 20:10:19 on Oct 06,2022
+# vlog -reportprogress 300 -work work testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 20:10:19 on Oct 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.testbench 
+# Start time: 20:10:19 on Oct 06,2022
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
+# Loading work.testbench(fast)
 # Loading work.exe_08(fast)
 # Loading work.modulo(fast)
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: Víctor  Hostname: VICTOR  ProcessID: 9344
-#           Attempting to use alternate WLF file "./wlftzh3b00".
+#           Attempting to use alternate WLF file "./wlftvcs1z0".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftzh3b00
+#           Using alternate file: ./wlftvcs1z0
+# End time: 20:37:57 on Oct 06,2022, Elapsed time: 0:27:38
+# Errors: 0, Warnings: 2
