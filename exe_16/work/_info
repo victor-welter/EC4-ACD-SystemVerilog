@@ -1,0 +1,83 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog/exe_16
+T_opt
+!s110 1665102999
+ViCkKY3IA<<5DUL;G?SnmK0
+04 6 4 work exe_16 fast 0
+=1-1c3947577edb-633f7496-b3-41f8
+!s124 OEM10U1 
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1665103323
+VJbFDCFVj1EVed3Wj4J0ij2
+04 9 4 work testbench fast 0
+=1-1c3947577edb-633f75d9-3e2-280
+!s124 OEM10U2 
+R2
+R3
+n@_opt1
+R4
+vexe_16
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1665103317
+!i10b 1
+!s100 I4SR>fj8haoXM02b<8?@^3
+IkV81JoTAcG[5Y_=_1BDf=2
+S1
+R1
+w1665102965
+8exe_16.sv
+Fexe_16.sv
+!i122 3
+L0 18 19
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z9 !s108 1665103317.000000
+!s107 exe_16.sv|
+!s90 -reportprogress|300|-work|work|exe_16.sv|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vtestbench
+R5
+R6
+!i10b 1
+!s100 oZaBIjX:?;Q0=AilAUkm>3
+IX=Tc=f2X020GI<Pge?eWb2
+S1
+R1
+w1665103282
+8testbench.sv
+Ftestbench.sv
+!i122 4
+L0 1 19
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 testbench.sv|
+!s90 -reportprogress|300|-work|work|testbench.sv|
+!i113 0
+R10
+R3
