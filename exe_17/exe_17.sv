@@ -13,7 +13,6 @@ ASCII (8 bits).
 ● Usar constantes para armazenar o valor em ASCII de cada tecla
 ● Fazer um testbench para testar
 Dica: usar operador ?:, if-else, ou case
-
 */
 module exe_17 (
     input logic a,
