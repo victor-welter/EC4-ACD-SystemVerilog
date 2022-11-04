@@ -12,8 +12,8 @@ out1 de 3 bits.
 ● Use o sinal sel para decidir qual valor será atribuído para out1. Quando sel é 1, out1
 recebe in1. Caso contrário, recebe in2.
 Dica: usar operador ?:, if-else, ou case
-
 */
+
 module exe_18 (
     input logic [2:0] in1,
     input logic [2:0] in2,
