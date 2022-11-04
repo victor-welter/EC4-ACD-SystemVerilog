@@ -13,34 +13,33 @@
 # //  18 U.S.C. Section 1905.
 # //
 # do sim.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Errors: 0, Warnings: 1
 # Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
 # vmap work work 
+# Copying C:/intelFPGA/21.1/questa_fse/win64/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 18:11:27 on Nov 03,2022
+# Start time: 21:07:53 on Nov 03,2022
 # vlog -reportprogress 300 -work work interrupt.sv 
 # -- Compiling module interrupt
 # 
 # Top level modules:
 # 	interrupt
-# End time: 18:11:28 on Nov 03,2022, Elapsed time: 0:00:01
+# End time: 21:07:54 on Nov 03,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 18:11:28 on Nov 03,2022
+# Start time: 21:07:54 on Nov 03,2022
 # vlog -reportprogress 300 -work work testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 18:11:28 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 21:07:54 on Nov 03,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.testbench 
-# Start time: 18:11:28 on Nov 03,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 21:07:54 on Nov 03,2022
+# ** Note: (vsim-3812) Design is being optimized...
 # Loading sv_std.std
 # Loading work.testbench(fast)
 # Loading work.interrupt(fast)
-# End time: 21:06:55 on Nov 03,2022, Elapsed time: 2:55:27
+# End time: 21:08:11 on Nov 03,2022, Elapsed time: 0:00:17
 # Errors: 0, Warnings: 0
