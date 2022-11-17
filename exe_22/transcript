@@ -19,129 +19,26 @@
 # vmap work work 
 # Modifying modelsim.ini
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 21:40:21 on Nov 10,2022
-# vlog -reportprogress 300 -work work exe_22.sv 
-# -- Compiling module exe_22
-# ** Error: (vlog-13069) exe_22.sv(31): near ";": syntax error, unexpected ';', expecting ',' or '}'.
-# ** Error: exe_22.sv(32): (vlog-13205) Syntax error found in the scope following 'UNLOCKED'. Is there a missing '::'?
-# End time: 21:40:22 on Nov 10,2022, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
-# ** Error: C:/intelFPGA/21.1/questa_fse/win64/vlog failed.
-# Error in macro ./sim.do line 3
-# C:/intelFPGA/21.1/questa_fse/win64/vlog failed.
-#     while executing
-# "vlog -work work exe_22.sv"
-do sim.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Errors: 0, Warnings: 1
-# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
-# vmap work work 
-# Modifying modelsim.ini
-# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 21:41:27 on Nov 10,2022
+# Start time: 19:24:58 on Nov 17,2022
 # vlog -reportprogress 300 -work work exe_22.sv 
 # -- Compiling module exe_22
 # 
 # Top level modules:
 # 	exe_22
-# End time: 21:41:27 on Nov 10,2022, Elapsed time: 0:00:00
+# End time: 19:24:59 on Nov 17,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 21:41:27 on Nov 10,2022
+# Start time: 19:24:59 on Nov 17,2022
 # vlog -reportprogress 300 -work work testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 21:41:27 on Nov 10,2022, Elapsed time: 0:00:00
+# End time: 19:24:59 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.testbench 
-# Start time: 21:41:27 on Nov 10,2022
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Note: (vopt-143) Recognized 1 FSM in module "exe_22(fast)".
-# Loading sv_std.std
-# Loading work.testbench(fast)
-# Loading work.exe_22(fast)
-# ** Error (suppressible): (vsim-3839) Variable '/testbench/unlocked_o', driven via a port connection, is multiply driven. See testbench.sv(14).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench File: testbench.sv Line: 10
-# ** Error (suppressible): (vsim-3839) Variable '/testbench/locked_o', driven via a port connection, is multiply driven. See testbench.sv(14).
-#    Time: 0 ns  Iteration: 0  Instance: /testbench File: testbench.sv Line: 9
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./sim.do PAUSED at line 5
-do sim.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Errors: 0, Warnings: 1
-# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
-# vmap work work 
-# Modifying modelsim.ini
-# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 21:42:04 on Nov 10,2022
-# vlog -reportprogress 300 -work work exe_22.sv 
-# -- Compiling module exe_22
-# 
-# Top level modules:
-# 	exe_22
-# End time: 21:42:05 on Nov 10,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 21:42:05 on Nov 10,2022
-# vlog -reportprogress 300 -work work testbench.sv 
-# -- Compiling module testbench
-# 
-# Top level modules:
-# 	testbench
-# End time: 21:42:05 on Nov 10,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.testbench 
-# Start time: 21:41:27 on Nov 10,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Error: (vopt-31) Unable to unlink file "C:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog/exe_22/work/@_opt2/_data/exemptd1f3tw".
-# Permission denied. (errno = EACCES)
-# ** Warning: (vopt-31) Unable to unlink file "C:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog/exe_22/work/@_opt2/_data/exemptd1f3tw".
-# Acesso negado. (GetLastError() = 5)
-# ** Warning: (vopt-133) Unable to remove directory "C:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog/exe_22/work/@_opt2/_data".
-# ** Warning: (vopt-133) Unable to remove directory "C:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog/exe_22/work/@_opt2".
-# A pasta não está vazia. (GetLastError() = 145)
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=3.
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./sim.do PAUSED at line 5
-do sim.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Errors: 0, Warnings: 1
-# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
-# vmap work work 
-# Modifying modelsim.ini
-# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 21:43:12 on Nov 10,2022
-# vlog -reportprogress 300 -work work exe_22.sv 
-# -- Compiling module exe_22
-# 
-# Top level modules:
-# 	exe_22
-# End time: 21:43:12 on Nov 10,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 21:43:12 on Nov 10,2022
-# vlog -reportprogress 300 -work work testbench.sv 
-# -- Compiling module testbench
-# 
-# Top level modules:
-# 	testbench
-# End time: 21:43:13 on Nov 10,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.testbench 
-# Start time: 21:41:27 on Nov 10,2022
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-31) Unable to unlink file "C:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog/exe_22/work/@_opt2/_data/exemptd1f3tw".
-# ** Warning: (vopt-133) Unable to remove directory "C:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog/exe_22/work/@_opt2/_data".
-# ** Warning: (vopt-133) Unable to remove directory "C:/Users/Cliente/Documents/Git/EC4-ACD-SystemVerilog/exe_22/work/@_opt2".
-# A pasta não está vazia. (GetLastError() = 145)
-# ** Note: (vopt-143) Recognized 1 FSM in module "exe_22(fast)".
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=3, Warnings=6.
+# Start time: 19:24:59 on Nov 17,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
 # Loading sv_std.std
 # Loading work.testbench(fast)
 # Loading work.exe_22(fast)
@@ -152,30 +49,30 @@ do sim.do
 # vmap work work 
 # Modifying modelsim.ini
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 21:44:34 on Nov 10,2022
+# Start time: 19:29:50 on Nov 17,2022
 # vlog -reportprogress 300 -work work exe_22.sv 
 # -- Compiling module exe_22
 # 
 # Top level modules:
 # 	exe_22
-# End time: 21:44:35 on Nov 10,2022, Elapsed time: 0:00:01
+# End time: 19:29:50 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
-# Start time: 21:44:35 on Nov 10,2022
+# Start time: 19:29:51 on Nov 17,2022
 # vlog -reportprogress 300 -work work testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 21:44:35 on Nov 10,2022, Elapsed time: 0:00:00
+# End time: 19:29:51 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 21:44:37 on Nov 10,2022, Elapsed time: 0:03:10
-# Errors: 3, Warnings: 6
+# End time: 19:29:53 on Nov 17,2022, Elapsed time: 0:04:54
+# Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.testbench 
-# Start time: 21:44:37 on Nov 10,2022
+# Start time: 19:29:53 on Nov 17,2022
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading sv_std.std
 # Loading work.testbench(fast)
 # Loading work.exe_22(fast)
-# End time: 21:47:53 on Nov 10,2022, Elapsed time: 0:03:16
+# End time: 19:35:52 on Nov 17,2022, Elapsed time: 0:05:59
 # Errors: 0, Warnings: 0

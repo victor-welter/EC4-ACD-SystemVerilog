@@ -3,8 +3,8 @@ module testbench;
     logic clk_i = 0;
     logic rst_ni = 0;
 
-    logic coin_i;
-    logic push_i;
+    logic coin_i = 0;
+    logic push_i = 0;
 
     logic locked_o;
     logic unlocked_o;
@@ -29,9 +29,5 @@ module testbench;
 
     always #20 coin_i = ~coin_i;
     always #40 push_i = ~push_i;
-
-
-
-
     
 endmodule
