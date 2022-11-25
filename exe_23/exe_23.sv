@@ -14,7 +14,6 @@
 aumentado em 1
 ● Quando alguém passar pela catraca (push com a catraca destravada) o crédito deve
 ser reduzido em 1
-
 */
 
 module exe_23 (
